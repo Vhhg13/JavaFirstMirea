@@ -3,10 +3,12 @@ package ru.mirea.task1;
 public class Summator {
     public static void main(String[] args){
 
+        // Создание и заполнене массива случайными значениями
         int[] numArray=new int[10];
         int i;
         for(i=0;i<10;++i)
             numArray[i]=(int)(Math.random()*100)%100;
+
         System.out.print("Рабочий массив:");
         for(i=0;i<10;++i)
             System.out.print(" "+numArray[i]);
