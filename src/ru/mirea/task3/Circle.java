@@ -1,23 +1,19 @@
 package ru.mirea.task3;
 
 public class Circle {
-    private double radius;
-    private String color;
+    private double radius=1;
+    private String color="Красный";
 
-    public Circle(){
-        radius=1;
-        color="Красный";
-    }
+    public Circle(){}
+
     public Circle(double radius, String color){
         this.radius=radius;
         this.color=color;
     }
     public Circle(double radius){
         this.radius=radius;
-        this.color="Красный";
     }
     public Circle(String color){
-        this.radius=1;
         this.color=color;
     }
 
